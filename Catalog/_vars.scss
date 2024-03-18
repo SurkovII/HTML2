@@ -5,4 +5,6 @@ $colorText:#000;
 $secondText:#4D4D4D;
 $gapGrid: 30px;
 $thirdSite:($widthSite - 4*$gapGrid) / 3;
-$widthBurgerMenu:232px
+$widthBurgerMenu:232px;
+$widthSitetablet: 768px;
+$twoSite:($widthSitetablet - 48px) / 2;

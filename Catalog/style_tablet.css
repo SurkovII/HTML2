@@ -1,0 +1,26 @@
+@media (min-width: 768px) and (max-width: 1140px) {
+  .header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .top-head__heading {
+    padding-left: 16px;
+  }
+  .breadcrumbs {
+    padding-right: 16px;
+  }
+  .feedback {
+    flex-direction: column;
+  }
+  .product_3 {
+    display: none;
+  }
+  .product {
+    width: 360px;
+    gap: 16px;
+  }
+  .filter-sort {
+    padding-right: 16px;
+    justify-content: space-between;
+  }
+}/*# sourceMappingURL=style_tablet.css.map */

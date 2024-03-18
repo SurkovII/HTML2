@@ -77,6 +77,23 @@ body {
         align-items: center;
         gap: 41px;
         @extend %flex;
+        &_button {
+            border-style: none;
+            position: relative;
+            background-color: $backBlock;
+        }
+        &_button_span {
+            background-color: $colorSelectSite;
+            position: absolute;
+            width: 18px;
+            border-radius: 50%;
+            top: -3px;
+            right: -5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
     }
 }
 
@@ -227,7 +244,7 @@ summary::-webkit-details-marker {
 }
 
 .product {
-    width: $thirdSite;
+    max-width: $thirdSite;
     display: flex;
     flex-direction: column;
     &__content {
