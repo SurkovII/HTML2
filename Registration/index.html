@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_tablet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
@@ -32,7 +33,12 @@
                     </ul>
                 </nav>
                 <img src="./img/Forma2.svg" alt="">
-                <img src="./img/Forma3.svg" alt="">
+                <form action="">
+                    <button class="header__right_button">
+                        <img src="./img/Forma3.svg" alt="">
+                        <div class="header__right_button_span"><span>5</span></div>
+                    </button>
+                </form>
             </div>
 
         </header>
@@ -45,24 +51,24 @@
                     <p>Your Name</p>
                     <input type="text" placeholder="First Name">
                     <input type="text" placeholder="Last Name">
-                </form>
-                <form class="gender">
-                    <input type="radio" name="gender" value="male">
-                    <p class="gender__male">Male</p>
-                    <input type="radio" name="gender" value="female">
-                    <p>Female</p>
-                </form>
-
-                <form action="" class="registration-box__left-menu__name">
-                    <p>Login details</p>
-                    <input type="email" placeholder="Email" required>
-                    <input type="password" minlength="8" required placeholder="Password">
-                    <p class="registration-box__left-menu__text">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
-                    <button class=" registration-box__left-menu__button ">
+                    <div class="gender">
+                        <input type="radio" name="gender" value="male">
+                        <p class="gender__male">Male</p>
+                        <input type="radio" name="gender" value="female">
+                        <p>Female</p>
+                    </div>
+                    <div action="" class="registration-box__left-menu__name">
+                        <p>Login details</p>
+                        <input type="email" placeholder="Email" required>
+                        <input type="password" minlength="8" required placeholder="Password">
+                        <p class="registration-box__left-menu__text">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
+                        <button class=" registration-box__left-menu__button ">
                         <div class="registration-box__left-menu__button_text ">JOIN NOW</div>
                         <img class="button_img" src="./img/arrow.svg " alt=" ">
                     </button>
+                    </div>
                 </form>
+
             </div>
             <div class="registration-box__right-menu ">
                 <h2>LOYALTY HAS ITS PERKS</h2>

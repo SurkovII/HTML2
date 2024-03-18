@@ -74,6 +74,23 @@ body {
   align-items: center;
   gap: 41px;
 }
+.header__right_button {
+  border-style: none;
+  position: relative;
+  background-color: #222;
+}
+.header__right_button_span {
+  background-color: #F16D7F;
+  position: absolute;
+  width: 18px;
+  border-radius: 50%;
+  top: -3px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
 
 .center {
   padding-left: calc(50% - 720px);
@@ -273,13 +290,6 @@ body {
   gap: 22px;
   padding-top: 64px;
   width: 652px;
-}
-.registration-box__right-menu h2 {
-  font-weight: 300;
-  font-size: 24px;
-  color: #000;
-}
-.registration-box__right-menu p {
   font-weight: 300;
   font-size: 24px;
   color: #000;
@@ -295,8 +305,8 @@ body {
 }
 
 .gender {
-  padding-top: 31px;
-  padding-bottom: 33px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;

@@ -77,6 +77,23 @@ body {
         align-items: center;
         gap: 41px;
         @extend %flex;
+        &_button {
+            border-style: none;
+            position: relative;
+            background-color: $backBlock;
+        }
+        &_button_span {
+            background-color: $colorSelectSite;
+            position: absolute;
+            width: 18px;
+            border-radius: 50%;
+            top: -3px;
+            right: -5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
     }
 }
 
@@ -270,16 +287,9 @@ body {
         gap: 22px;
         padding-top: 64px;
         width: 652px;
-        & h2 {
-            font-weight: 300;
-            font-size: 24px;
-            color: #000;
-        }
-        & p {
-            font-weight: 300;
-            font-size: 24px;
-            color: #000;
-        }
+        font-weight: 300;
+        font-size: 24px;
+        color: #000;
         &__sale {
             display: flex;
             gap: 12px;
@@ -293,8 +303,8 @@ body {
 }
 
 .gender {
-    padding-top: 31px;
-    padding-bottom: 33px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
