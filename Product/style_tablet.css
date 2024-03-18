@@ -1,0 +1,41 @@
+@media (min-width: 768px) and (max-width: 1140px) {
+  .header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .top-head__heading {
+    padding-left: 16px;
+  }
+  .breadcrumbs {
+    padding-right: 16px;
+  }
+  .feedback {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .product {
+    width: 360px;
+  }
+  .product__img {
+    width: 360px;
+  }
+  .swiper {
+    height: 500px;
+  }
+  .swiper-slide img {
+    max-width: 50%;
+    max-height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .womenCollection {
+    margin: 0px;
+  }
+  .item_tablet_none {
+    display: none;
+  }
+  .prod {
+    flex-direction: row-reverse;
+    padding-bottom: 50px;
+  }
+}/*# sourceMappingURL=style_tablet.css.map */
