@@ -1,0 +1,135 @@
+    @media (min-width:768px) and (max-width:1024px) {
+        .container1 {
+            padding-right: 30px;
+            padding-left: 30px;
+            display: flex;
+            background: #222222;
+            justify-content: space-between;
+            align-items: center;
+            height: 74px;
+        }
+        .basket {
+            position: relative;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+        }
+        .basket .basket_form {
+            position: relative;
+        }
+        .basket .quantity {
+            z-index: 5;
+            font-family: Lato;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: white;
+            position: absolute;
+            display: inline;
+        }
+        .count {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .elipse {
+            position: relative;
+        }
+        .count p {
+            position: absolute;
+            z-index: 2;
+        }
+        .Big_title {
+            font-size: 44px;
+        }
+        .small_title {
+            font-size: 24px;
+        }
+        .brand_img {
+            max-width: 60%;
+            max-height: 60%;
+        }
+        .cloth {
+            width: 100%;
+            gap: 15px;
+            display: flex;
+            justify-content: center;
+        }
+        .container2 {
+            width: 90%;
+        }
+        .product {
+            width: 80%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-gap: 30px;
+        }
+        .img_table {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .img_other_color {
+            display: none;
+        }
+        .image_table {
+            position: relative;
+        }
+        .gradient:after {
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: #3A3838DB;
+        }
+        .title_basket_text {
+            color: #FFFFFF;
+            font-family: Lato;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .frame {
+            width: 100%;
+            display: flex;
+            position: absolute;
+            z-index: 2;
+            justify-content: center;
+        }
+        .image_basket {
+            padding: 10px;
+            border: 3px solid white;
+            position: absolute;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            gap: 20px;
+        }
+        .menu_hover {
+            display: none;
+        }
+        .support_menu {
+            width: 80%;
+            display: flex;
+            gap: 30px;
+            flex-direction: column;
+        }
+        .feedback_hover {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-direction: column;
+        }
+        .feedback_hover {
+            justify-content: center;
+            padding: 20px;
+        }
+    }

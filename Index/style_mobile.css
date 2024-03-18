@@ -1,0 +1,121 @@
+@media (min-width:320px) and (max-width:767px) {
+    .container1 {
+        padding-right: 30px;
+        padding-left: 30px;
+        display: flex;
+        background: #222222;
+        justify-content: space-between;
+        align-items: center;
+        height: 74px;
+    }
+    .forma_2 {
+        display: none;
+    }
+    .basket {
+        display: none;
+    }
+    .brand_img {
+        display: none;
+    }
+    .brand {
+        height: 370px;
+        display: flex;
+        background: #F1E4E6;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .Big_title {
+        font-size: 38px;
+    }
+    .small_title {
+        font-size: 24px;
+    }
+    .container2 {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+    .box4 .photo {
+        display: none;
+    }
+    .box4 .photo_2 {
+        display: inline;
+    }
+    .product {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-gap: 30px;
+    }
+    .img_table {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img_other_color {
+        display: none;
+    }
+    .image_table {
+        position: relative;
+    }
+    .gradient:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #3A3838DB;
+    }
+    .title_basket_text {
+        color: #FFFFFF;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .frame {
+        width: 100%;
+        display: flex;
+        position: absolute;
+        z-index: 2;
+        justify-content: center;
+    }
+    .image_basket {
+        padding: 10px;
+        border: 3px solid white;
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .menu_hover {
+        display: none;
+    }
+    .support_menu {
+        width: 80%;
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+    .feedback_hover {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .feedback_hover {
+        justify-content: center;
+        padding: 20px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
