@@ -74,6 +74,23 @@ body {
   align-items: center;
   gap: 41px;
 }
+.header__right_button {
+  border-style: none;
+  position: relative;
+  background-color: #222;
+}
+.header__right_button_span {
+  background-color: #F16D7F;
+  position: absolute;
+  width: 18px;
+  border-radius: 50%;
+  top: -3px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
 
 .center {
   padding-left: calc(50% - 720px);
@@ -81,6 +98,7 @@ body {
 }
 
 .product_basket {
+  padding-top: 96px;
   display: flex;
 }
 
@@ -90,11 +108,17 @@ body {
   gap: 40px;
 }
 
+.product:hover {
+  box-shadow: none;
+  transition: 0.3s;
+}
+
 .product {
   width: 650px;
   display: flex;
   gap: 40px;
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  position: relative;
 }
 .product__img {
   width: 260px;
@@ -144,6 +168,11 @@ body {
   border: 1px solid rgb(189, 185, 188);
   text-align: center;
 }
+.product__close {
+  position: absolute;
+  top: 28px;
+  right: 22px;
+}
 
 .adress {
   width: 360px;
@@ -152,8 +181,15 @@ body {
   margin-left: 128px;
   gap: 20px;
 }
+.adress__form {
+  gap: 20px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+}
 .adress__title {
   padding-top: 18px;
+  width: 360px;
   font-weight: 300;
   font-size: 16px;
   color: #222;
@@ -246,6 +282,7 @@ body {
   font-size: 16px;
   color: #F16D7F;
   border: none;
+  transition: 0.3s;
 }
 
 .buttons_basket {
@@ -255,10 +292,14 @@ body {
   gap: 192px;
 }
 .buttons_basket__but1 {
+  position: relative;
   width: 235px;
   height: 50px;
   background-color: #fff;
   border: 2px solid rgb(167, 165, 165);
+}
+.buttons_basket__but1::before {
+  fill: #E05C6E;
 }
 .buttons_basket__but2 {
   width: 225px;

@@ -77,6 +77,23 @@ body {
         align-items: center;
         gap: 41px;
         @extend %flex;
+        &_button {
+            border-style: none;
+            position: relative;
+            background-color: $backBlock;
+        }
+        &_button_span {
+            background-color: $colorSelectSite;
+            position: absolute;
+            width: 18px;
+            border-radius: 50%;
+            top: -3px;
+            right: -5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
     }
 }
 
@@ -86,6 +103,7 @@ body {
 }
 
 .product_basket {
+    padding-top: 96px;
     display: flex;
 }
 
@@ -97,11 +115,17 @@ body {
     }
 }
 
+.product:hover {
+    box-shadow: none;
+    transition: 0.3s;
+}
+
 .product {
     width: 650px;
     display: flex;
     gap: 40px;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    position: relative;
     &__img {
         width: 260px;
     }
@@ -150,6 +174,11 @@ body {
         border: 1px solid rgb(189, 185, 188);
         text-align: center;
     }
+    &__close {
+        position: absolute;
+        top: 28px;
+        right: 22px;
+    }
 }
 
 .adress {
@@ -158,8 +187,15 @@ body {
     flex-direction: column;
     margin-left: 128px;
     gap: 20px;
+    &__form {
+        gap: 20px;
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+    }
     &__title {
         padding-top: 18px;
+        width: 360px;
         font-weight: 300;
         font-size: 16px;
         color: #222;
@@ -251,6 +287,7 @@ body {
             font-size: 16px;
             color: $colorSelectSite;
             border: none;
+            transition: 0.3s;
         }
     }
 }
@@ -261,10 +298,14 @@ body {
     display: flex;
     gap: 192px;
     &__but1 {
+        position: relative;
         width: 235px;
         height: 50px;
         background-color: #fff;
         border: 2px solid rgb(167, 165, 165);
+        &::before {
+            fill: #E05C6E;
+        }
     }
     &__but2 {
         width: 225px;

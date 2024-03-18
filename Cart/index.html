@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_tablet.css">
 </head>
 
 <body>
@@ -32,7 +33,12 @@
                     </ul>
                 </nav>
                 <img src="./img/Forma2.svg" alt="">
-                <img src="./img/Forma3.svg" alt="">
+                <form action="">
+                    <button class="header__right_button">
+                        <img src="./img/Forma3.svg" alt="">
+                        <div class="header__right_button_span"><span>5</span></div>
+                    </button>
+                </form>
             </div>
 
         </header>
@@ -65,6 +71,10 @@
 
 
                         </div>
+                        <div class="product__close">
+                            <img src="./img/Close.svg" alt="">
+                        </div>
+
                     </div>
                     <div class="product ">
                         <img class="product__img " src="img/product2.png " alt="pruduct ">
@@ -80,18 +90,25 @@
                                     <input class="product__quantity2" type="number" placeholder="2">
                                 </div>
                             </div>
-
-
+                            <div class="product__close">
+                                <img src="./img/Close.svg" alt="">
+                            </div>
                         </div>
                     </div>
+                    <form action="">
+                        <div class="buttons_basket center">
+                            <button class="buttons_basket__but1">CLEAR SHOPPING CART</button>
+                            <button class="buttons_basket__but2">CONTINUE SHOPPING</button>
+                        </div>
+                    </form>
                 </div>
             </div>
             <div class="product_basket_right">
                 <div class="adress">
                     <div class="adress__title">SHIPPING ADRESS</div>
-                    <input type="text" class="adress__town" placeholder="Bangladesh">
-                    <input type="text" class="adress__state" placeholder="State">
-                    <input type="nubmer" class="adress__post" placeholder="Postcode / Zip">
+                    <form class="adress__form"><input type="text" class="adress__town" placeholder="Bangladesh">
+                        <input type="text" class="adress__state" placeholder="State">
+                        <input type="nubmer" class="adress__post" placeholder="Postcode / Zip"></form>
                     <button class="adress__button">GET A QUOTE</button>
                 </div>
                 <div class="total-sub">
@@ -109,10 +126,7 @@
             </div>
 
         </div>
-        <div class="buttons_basket center">
-            <button class="buttons_basket__but1">CLEAR SHOPPING CART</button>
-            <button class="buttons_basket__but2">CONTINUE SHOPPING</button>
-        </div>
+
         <section>
             <div class="feedback ">
                 <div class="subscribe-cart ">
