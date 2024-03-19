@@ -103,6 +103,7 @@
   justify-content: space-between;
 }
 .top-head__heading {
+  padding-left: 16px;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -475,7 +476,6 @@ img {
   padding: 10px;
   border-radius: 25px 0 0 25px;
   border: 1px solid #ccc;
-  width: 300px;
   box-sizing: border-box;
 }
 
@@ -693,7 +693,6 @@ img {
   padding: 10px;
   border-radius: 25px 0 0 25px;
   border: 1px solid #ccc;
-  width: 300px;
   box-sizing: border-box;
 }
 
