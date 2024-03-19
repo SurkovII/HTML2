@@ -1,0 +1,42 @@
+@media (max-width: 767px) {
+  .header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .header__right_icon2 {
+    display: none;
+  }
+  .header__right_basket {
+    display: none;
+  }
+  .top-head {
+    padding-left: 16px;
+    justify-content: center;
+  }
+  .top-head__heading {
+    padding-left: 16px;
+    justify-content: center;
+  }
+  .registration-box {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    padding-bottom: 96px;
+  }
+  .registration-box__left-menu {
+    display: flex;
+    width: 360px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+  }
+  .registration-box__right-menu {
+    width: 360px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+  }
+  .feedback {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style_mobile.css.map */
