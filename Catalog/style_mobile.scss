@@ -1,0 +1,42 @@
+@import 'vars';
+@media(max-width:767px) {
+    .header {
+        padding-left: 32px;
+        padding-right: 32px;
+        &__right {
+            &_icon2 {
+                display: none;
+            }
+            &_basket {
+                display: none;
+            }
+        }
+    }
+    .top-head {
+        flex-direction: column;
+    }
+    .feedback {
+        flex-direction: column;
+    }
+    .product_3 {
+        display: none;
+    }
+    .product {
+        width: $twoSite;
+        gap: 16px;
+    }
+    .filter-sort {
+        padding-right: 16px;
+        justify-content: space-between;
+    }
+    .filter__heading {
+        display: none;
+    }
+    .filter__svg {
+        width: 50px;
+        height: 20px;
+    }
+    .filter {
+        width: 250px;
+    }
+}
